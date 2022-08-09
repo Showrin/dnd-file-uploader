@@ -1,0 +1,9 @@
+{
+  "name": "dnd-file-uploader",
+  "version": "1.0.0",
+  "description": "It's a drag and drop file uploader library that provides some useful React components.",
+  "main": "index.js",
+  "repository": "git@github.com:Showrin/dnd-file-uploader.git",
+  "author": "Showrin <showrinece15@gmail.com>",
+  "license": "MIT"
+}
