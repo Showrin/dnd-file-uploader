@@ -5,5 +5,17 @@
   "main": "index.js",
   "repository": "git@github.com:Showrin/dnd-file-uploader.git",
   "author": "Showrin <showrinece15@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-sass": "^1.2.13"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
