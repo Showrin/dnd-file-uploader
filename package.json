@@ -1,0 +1,29 @@
+{
+  "name": "dnd-file-uploader",
+  "version": "1.0.0",
+  "description": "It's a drag and drop file uploader library that provides some useful React components.",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": "git@github.com:Showrin/dnd-file-uploader.git",
+  "author": "Showrin <showrinece15@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-sass": "^1.2.13"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
