@@ -4,29 +4,6 @@ orbs:
   node: circleci/node@4.7
   codecov: codecov/codecov@3.1.1
 
-jobs:
-  build:
-    docker:
-      - image: cimg/node:12.22
-    steps:
-      - checkout
-      - node/install-packages:
-          pkg-manager: yarn
-  build:
-    docker:
-      - image: cimg/node:12.22
-    steps:
-      - checkout
-      - node/install-packages:
-          pkg-manager: yarn
-  test:
-    docker:
-      - image: cimg/node:12.22
-    steps:
-      - run:
-          name: Run tests
-          command: yarn test
-
 workflows:
   sample:
     jobs:
@@ -35,4 +12,4 @@ workflows:
           pkg-manager: yarn
       - node/test:
           post-steps:
-              - codecov/upload
+            - codecov/upload
