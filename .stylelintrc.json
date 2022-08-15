@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
+  "rules": {
+    "color-hex-length": "long",
+    "string-quotes": "double",
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["attribute"]
+      }
+    ],
+    "max-nesting-depth": 6,
+    "selector-max-compound-selectors": 6
+  }
+}
