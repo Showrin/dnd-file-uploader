@@ -12,8 +12,10 @@
     "start": "rollup -c -w",
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint . --no-error-on-unmatched-pattern",
-    "fix:lint": "yarn lint --fix"
+    "lint:js": "eslint . --no-error-on-unmatched-pattern",
+    "lint:style": "stylelint \"**/*.scss\"",
+    "fix:lint:js": "yarn lint --fix",
+    "fix:lint:style": "stylelint \"**/*.scss\" --fix"
   },
   "repository": "git@github.com:Showrin/dnd-file-uploader.git",
   "author": "Showrin <showrinece15@gmail.com>",
@@ -42,7 +44,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.77.2",
-    "rollup-plugin-sass": "^1.2.13"
+    "rollup-plugin-sass": "^1.2.13",
+    "stylelint": "^14.10.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^5.0.0"
   },
   "peerDependencies": {
     "react": "^18.2.0",
