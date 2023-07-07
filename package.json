@@ -45,7 +45,7 @@
     "react-dom": "^18.2.0",
     "rollup": "^2.77.2",
     "rollup-plugin-sass": "^1.2.13",
-    "stylelint": "^14.10.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^5.0.0"
   },
